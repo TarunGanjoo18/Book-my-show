@@ -1,0 +1,15 @@
+/* ./src/index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-prev::before, .slick-next::before { color: red !important; }
+.slick-prev{
+     left: 0% !important;
+     z-index: 1;
+}
+.slick-next{
+     right:  0% !important;
+     z-index: 1;
+}
